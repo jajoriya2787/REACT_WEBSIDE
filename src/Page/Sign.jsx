@@ -87,7 +87,8 @@ function Sign() {
             />
             <div
             onClick={() => {setpassword(!password)}}
-            className='absolute top-8 right-2'
+            className='absolute top-8 right-2 cursor-pointergit commit -m "Updated old code"
+'
             >
               {
                 password ? '🙈 Hide' : '👁️ Show'
