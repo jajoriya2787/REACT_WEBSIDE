@@ -87,8 +87,7 @@ function Sign() {
             />
             <div
             onClick={() => {setpassword(!password)}}
-            className='absolute top-8 right-2 cursor-pointer"
-'
+            className='absolute top-8 right-2 cursor-pointer'
             >
               {
                 password ? '🙈 Hide' : '👁️ Show'
