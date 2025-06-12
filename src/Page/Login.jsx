@@ -105,13 +105,13 @@ function Login() {
                             required
                             className=" mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-pink-500 focus:border-pink-500"
                         />
-                        <button
+                        <div
                             onClick={() => { setpassword(!password) }}
-                            className='absolute top-8 right-4'
+                            className='absolute top-8 right-4 cursor-pointer'
 
                         >
                             {password ? '🙈 Hide' : '👁️ Show'}
-                        </button>
+                        </div>
                     </div>
                     <div className="flex items-center justify-between">
                         <label className="flex items-center text-sm">
